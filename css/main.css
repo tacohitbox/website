@@ -1,0 +1,142 @@
+@import url("/css/fonts.css");
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  background: #282828;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Shippori", Helvetica, Arial, Verdana, sans-serif;
+}
+
+a {
+  color:#a8d3ff;
+}
+
+button:hover, button:focus, button:focus-visible {
+  background: #484848 !important;
+}
+
+button {
+  font-family: "Shippori", Helvetica, Arial, Verdana, sans-serif;
+  background: #282828;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 3px 5px 5px 5px;
+  transition: background 0.25s;
+}
+
+code {
+  background: black;
+  font-family: "Hack", "Courier New", Courier, monospace;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.main button:not(.p button) {
+  background: black;
+}
+
+iframe {
+  width:100%;
+  max-width:500px;
+  height:150px;
+}
+
+ul {
+  padding-left: 15px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.nm {
+  margin:0;
+}
+
+.sh {
+  font-family: "Shippori", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.cn {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.top {
+  display: table;
+  text-align: center;
+  width: calc(100% - 4vh);
+  height: 25vh;
+  padding: 0 2vh;
+  background: black;
+}
+
+.top .top-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.top-content h1 {
+  margin-top: -5px;
+}
+
+.main {
+  transition: padding-left 0.5s, padding-right 0.5s;
+}
+
+@media (min-width:950px) {
+  .main {
+    padding: 5px 20vw;
+    width: calc(100% - 40vw);
+  }
+}
+
+@media (max-width:950px) {
+  .main {
+    padding: 5px 5vw;
+    width: calc(100% - 10vw);
+  }
+}
+
+.main h2 {
+  margin: 0;
+}
+
+.p {
+  background: black;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 5px;
+  transition: width 0.5s;
+}
+
+.p h2,
+.p p {
+  font-family: "Shippori", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.p h2 {
+  margin-top:-5px;
+}
+
+.p p {
+  margin-top:0;
+  margin-bottom:5px;
+}
+
+.p button {
+  border-radius: 4px;
+}
+
+.music h2 {
+  margin-top:-8px;
+}
