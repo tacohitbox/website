@@ -1,5 +1,12 @@
 @import url("/css/fonts.css");
 
+@media (prefers-reduced-motion) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
 html, body {
   overflow-x: hidden;
 }
